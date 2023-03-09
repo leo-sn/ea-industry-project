@@ -1,0 +1,37 @@
+.online-container {
+
+    padding-left: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    &:hover {
+        cursor: pointer;
+    }
+
+    &--title-top {
+        font-weight: 300;
+        font-size: 20px;
+        margin: 5px 0 0 0;
+    }
+
+    &__title-bottom{
+        margin-top: 10px;
+        padding-right: 30px;
+        display: flex;
+        justify-content: center;
+        
+        &--text {
+            font-size: 14px;
+            letter-spacing: 2px;
+            font-weight: 500;
+            padding: 5px 15px;
+            border: 3px solid #ACAABB;
+            border-radius: 15px;
+        }
+    }
+
+    &--find-friends {
+        
+    }
+}

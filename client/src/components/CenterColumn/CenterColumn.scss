@@ -1,0 +1,20 @@
+.center-column-container {
+
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: scroll;
+
+    &::-webkit-scrollbar {
+        display: none;
+    }
+
+    &--filters {
+        display: flex;
+        justify-content: space-between;
+        gap: 20px;
+
+        flex-wrap: wrap;
+        margin: 20px 30px;
+    }
+
+}
